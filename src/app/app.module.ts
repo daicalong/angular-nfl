@@ -19,7 +19,8 @@ import { PlayerListComponent } from './player-list/player-list.component';
   declarations: [
     AppComponent,
     TopBarComponent,
-    ProductListComponent
+    ProductListComponent,
+    PlayerListComponent
   ],
   bootstrap: [ AppComponent ]
 })
