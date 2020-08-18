@@ -1,1 +1,5 @@
-<p>player-list works!</p>
+<ul class="flex flex-col">
+    <li class="flex flex-row" *ngFor="let player of playerList">
+        <span *ngFor="let cell of player">{{cell.valueOf()}}</span>
+    </li>
+</ul>

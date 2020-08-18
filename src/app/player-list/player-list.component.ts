@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { players } from '../constants/players.constant';
+import { Player } from '../interfaces/player.interface';
 
 @Component({
   selector: 'app-player-list',
@@ -8,10 +9,12 @@ import { players } from '../constants/players.constant';
 })
 
 export class PlayerListComponent implements OnInit {
+  playerList = Array<Player>();
 
   constructor() { }
 
   ngOnInit(): void {
+    this.playerList = players;
   }
 
 }

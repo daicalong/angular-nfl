@@ -13,7 +13,7 @@ import { PlayerListComponent } from './player-list/player-list.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: '', component: PlayerListComponent },
     ])
   ],
   declarations: [
